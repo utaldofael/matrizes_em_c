@@ -1,7 +1,7 @@
 #include <stdio.h>
 int linhas, colunas;
 
-
+//Função que faz a soma dos valores de uma matriz
 void matriz_soma(int matriz[linhas][colunas]){
     int i, j;
     int soma = 0;
@@ -13,7 +13,7 @@ void matriz_soma(int matriz[linhas][colunas]){
     printf("A soma de todos os valores da matriz é: %d\n", soma);
 }
 
-
+//Funçõo que define e mostra uma matriz
 void matriz_mostrar(int lin, int col){
     int matriz[lin][col];
     int i, j;
@@ -53,7 +53,7 @@ void matriz_mostrar(int lin, int col){
     }
 }
 
-
+//Método principal
 int main() {
     int res;
 
